@@ -1,4 +1,4 @@
-package com.example.demo.api.redis;
+package com.example.demo.api.jpa;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class RedisController {
+public class JpaController {
 	@Autowired
 	private RedisTemplate<String, String> redisTemplate;
 
